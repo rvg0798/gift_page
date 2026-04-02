@@ -819,7 +819,7 @@
     (function () {
       const root = document.documentElement;
       const toggle = document.querySelector('[data-theme-toggle]');
-      let currentTheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'dark' : 'light';
+      let currentTheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'light';
 
       function paintToggle(theme) {
         toggle.innerHTML = theme === 'dark'
